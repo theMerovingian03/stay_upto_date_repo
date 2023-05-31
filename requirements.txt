@@ -1,0 +1,6 @@
+django
+nltk
+sumy
+tenacity>=8.2.2
+mega.py
+pypdf2

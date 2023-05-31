@@ -1,0 +1,86 @@
+/* Style the form container */
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i');
+form {
+    max-width: 500px;
+    margin: 0 0 20px;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-family: 'Ubuntu',Arial, sans-serif;
+  }
+  
+  /* Style the form fields */
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  textarea,
+  select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #000000;
+    color: #000000;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the dropdown */
+  select {
+    appearance: none;
+    color:#000000;
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 6'%3E%3Cpath fill='%23333333' d='M.7 0L0 .7 5.3 6 6 6l5.3-5.3L11.3 0z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 8px;
+    padding-right: 20px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+
+    /* background-image: url("{% static 'images/triangle_image.png' %}");
+    background-position: right center;
+    background-repeat: no-repeat;
+    padding-right: 20px; adjust as needed */
+  }
+  select:hover{
+    background-color: azure;
+  }
+  /* Style the submit button */
+  button[type="submit"] {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #ff632a;
+  }
+
+  select option:checked {
+    background-color: #ff632a;
+    color: #ffffff;
+  }
+
+  select option {
+    color: #000000;
+  }
+
+  select:focus {
+    outline: none;
+  }
+
+  

@@ -1,0 +1,70 @@
+/* Style the form container */
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i');
+form {
+    max-width: 500px;
+    margin: 0 0 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    font-family: 'Ubuntu',Arial, sans-serif;
+  }
+  /* <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i"> */
+  /* Style the form fields */
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 4px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    font-size: 16px;
+  }
+  
+  input[type="checkbox"] {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  input[type="radio"] {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  /* Style the submit button */
+  button[type="submit"] {
+    background-color: #ff632a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
