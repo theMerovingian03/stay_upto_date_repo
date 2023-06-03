@@ -48,7 +48,7 @@ def summarise_downloaded_text(filename):
 
 def upload_to_mega(filename):
     mega = Mega()
-    m = mega.login('stayuptodate23@outlook.com', 'RRAM2423258#ok')  # Replace email and password with your Mega account credentials
+    m = mega.login('example@email.com', 'example_password')  # Replace email and password with your Mega account credentials
 
     file_path = f'file_directory/files/summary/{filename}_summarised.txt'
     mega_file = m.upload(file_path)
