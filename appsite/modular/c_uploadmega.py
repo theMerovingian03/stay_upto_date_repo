@@ -1,6 +1,6 @@
 from mega import Mega
 mega = Mega()
-m = mega.login('stayuptodate23@outlook.com', 'RRAM2423258#ok') # Replace email and password with your Mega account credentials
+m = mega.login('example@email.com', 'example_password') # Replace email and password with your Mega account credentials
 summarised_suffix = '_summarised'
 
 def upload_to_mega(filename):
@@ -13,5 +13,5 @@ def upload_to_mega(filename):
 
     print("File uploaded successfully. Download link: ", download_link)
     return download_link
-    mega_recovery_key='cjQSGPwYPwze_3Pf5GBgrQ'
+    mega_recovery_key='exapmle_recovery_key'
 
