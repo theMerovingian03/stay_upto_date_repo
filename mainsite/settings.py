@@ -138,4 +138,4 @@ EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
 EMAIL_HOST_USER = 'stayuptodate23@outlook.com'
-EMAIL_HOST_PASSWORD = 'RishiRoshanAvinashMahesh'
+EMAIL_HOST_PASSWORD = '################'
